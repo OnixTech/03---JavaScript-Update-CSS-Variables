@@ -1,5 +1,39 @@
 @import url("variables.css");
 
+.controls {
+  margin-bottom: 50px;
+  height: 600px;
+  border-color: white;
+}
+
+.c-b{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  border: 2px;
+  border-color: white;
+}
+
+.size{
+  width: 50%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  border: 2px;
+  border-color: white;
+}
+.img-cont{
+  width: 600px;
+  height: 400px;
+  border: 2px;
+  border-color: white;
+}
+.hht-box{
+  border: 2px;
+  border-color: white;
+}
+
 img {
     padding: 15px;
     width: var(--wth);
@@ -24,16 +58,11 @@ img {
     font-weight: 100;
     font-size: 50px;
   }
-
-  .controls {
-    margin-bottom: 50px;
-  }
-
   input {
     width: 100px;
   }
   #hht{
-    
+    transform: rotate(270deg);
   }
 
   
